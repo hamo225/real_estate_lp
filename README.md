@@ -11,7 +11,6 @@ Install all the dev dependencies by running in your terminal
 npm install
 ``` 
 
----
 
 ### Run
 Run live-server and watch for changes in the scss/css files
@@ -19,7 +18,6 @@ Run live-server and watch for changes in the scss/css files
 npm start
 ``` 
 
----
 
 ### Build
 ```
