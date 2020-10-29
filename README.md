@@ -1,4 +1,4 @@
-Landing page for a real estate company
+# Landing page for a real estate company
 
 ### Setup Project Environment
 Install all the dev dependencies by running in your terminal
