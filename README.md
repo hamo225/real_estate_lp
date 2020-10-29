@@ -16,7 +16,7 @@ npm install
 ### Run
 Run live-server and watch for changes in the scss/css files
 ```
-npm run start
+npm start
 ``` 
 
 ---
