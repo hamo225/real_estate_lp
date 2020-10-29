@@ -1,7 +1,7 @@
 Landing page for a real estate company
 
 ### Setup Project Environment
-Assuming you have node.js installed on your machine then run in your project folder in the terminal
+Install all the dev dependencies by running in your terminal
 ```
 npm install
 ``` 
@@ -9,7 +9,7 @@ npm install
 ---
 
 ### Run
-Watch for changes in the scss/css files and to run live-server.
+Run live-server and watch for changes in the scss/css files
 ```
 npm run start
 ``` 
