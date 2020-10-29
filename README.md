@@ -1,15 +1,15 @@
 Landing page for a real estate company
 
-### Installation
-1. Download/Fork this repo.
-2. Assuming node.js installed and using npm. 
-3. run npm install in your project folder in the terminal
+### Setup Project Environment
+1. Download or Fork this repo.
+2. You will need node.js installed and using npm. 
+3. run `npm install` in your project folder in the terminal
 
 ### Run
-npm run start to watch for changes in the scss/css files and to run live-server.
+`npm run start` to watch for changes in the scss/css files and to run live-server.
 
 ### Build Process
-npm build:css
+npm `build:css`
 
 
 #### Considerations
