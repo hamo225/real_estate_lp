@@ -1,14 +1,14 @@
 Landing page for a real estate company
 
-#### Installation
+### Installation
 1. Download/Fork this repo.
 2. Assuming node.js installed and using npm. 
 3. run npm install in your project folder in the terminal
 
-#### Run
+### Run
 npm run start to watch for changes in the scss/css files and to run live-server.
 
-#### Build Process
+### Build Process
 npm build:css
 
 
