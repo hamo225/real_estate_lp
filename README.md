@@ -1,19 +1,25 @@
 Landing page for a real estate company
 
 ### Setup Project Environment
-#### Assuming you have node.js installed on your machine
-
-run `npm install` in your project folder in the terminal
+Assuming you have node.js installed on your machine then run in your project folder in the terminal
+```
+npm install
+``` 
 
 ---
 
 ### Run
-`npm run start` to watch for changes in the scss/css files and to run live-server.
+Watch for changes in the scss/css files and to run live-server.
+```
+npm run start
+``` 
 
 ---
 
 ### Build
-```npm build:css```
+```
+npm build:css
+```
 
 ---
 
