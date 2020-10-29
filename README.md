@@ -1,6 +1,6 @@
 # Landing page for a real estate company
 
-### Setup Project Environment
+### Setup 
 
 Fork and clone repo
 ```
