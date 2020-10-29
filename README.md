@@ -1,6 +1,11 @@
 # Landing page for a real estate company
 
 ### Setup Project Environment
+
+Fork and clone repo
+```
+https://github.com/hamo225/real_estate_lp
+```
 Install all the dev dependencies by running in your terminal
 ```
 npm install
