@@ -6,7 +6,16 @@
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: repeat(3, 1fr);
+
+    //using css grid and not media queries to make it responsive.
+    //use auto fit.
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    //the grid will always fit atleast 250 px for each column or 1 full width
+
+
+
     gap: 6rem;
+    align-items: flex-start;
 
 }
 
