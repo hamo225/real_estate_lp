@@ -136,6 +136,9 @@ body {
   @media only screen and (max-width: 50em) {
     .header {
       grid-column: 1/-1; } }
+  @media only screen and (max-width: 37.5em) {
+    .header {
+      padding: 5rem; } }
   .header__logo {
     height: 3rem;
     justify-self: center; }
@@ -183,12 +186,18 @@ body {
       grid-row: 3/4;
       flex-direction: row;
       padding: 5rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .realtors {
+      flex-direction: column; } }
   .realtors__person {
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 1.5rem;
     align-items: center; }
+    @media only screen and (max-width: 37.5em) {
+      .realtors__person {
+        padding-top: 2rem; } }
     .realtors__person img {
       width: 7rem;
       border-radius: 50%;
