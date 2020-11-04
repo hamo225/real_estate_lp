@@ -6,6 +6,15 @@
     align-items: center;
     justify-content: center;
 
+    @media only screen and (max-width:$bp-medium-2) {
+        grid-column: 1/-1;
+        grid-row: 3/4;
+        flex-direction: row;
+        padding: 5rem;
+
+
+    }
+
 
     &__person {
         color: white;
@@ -14,6 +23,7 @@
         grid-template-columns: 1fr 1fr;
         margin-top: 1.5rem;
         align-items: center;
+
 
         & img {
             width: 7rem;
