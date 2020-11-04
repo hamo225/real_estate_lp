@@ -24,6 +24,11 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400; }
 
+.heading-1 {
+  font-size: 4.5rem;
+  color: #f9f7f6;
+  line-height: 1; }
+
 .heading-2 {
   font-size: 4rem;
   line-height: 1; }
@@ -96,12 +101,74 @@ body {
     transform: translateY(1.3rem); }
 
 .header {
-  background-color: red;
-  grid-column: full-start/col-end 6; }
+  background-color: #54483A;
+  grid-column: full-start/col-end 6;
+  background-image: linear-gradient(rgba(16, 29, 44, 0.93), rgba(16, 29, 44, 0.93)), url(/img/hero.jpeg);
+  background-size: cover;
+  background-position: center;
+  padding: 8rem;
+  padding-top: 4rem;
+  display: grid;
+  grid-template-rows: 1fr min-content 6rem 1fr;
+  grid-template-columns: max-content;
+  row-gap: 1.5rem;
+  justify-content: center; }
+  .header__logo {
+    height: 3rem;
+    justify-self: center; }
+  .header__btn {
+    align-self: flex-start;
+    justify-self: flex-start; }
+  .header__seenon-text {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+    align-items: center;
+    grid-template-rows: 1fr;
+    font-size: 1.5rem;
+    font-family: "Josefin Sans", sans-serif;
+    color: #f9f7f6; }
+    .header__seenon-text::before, .header__seenon-text::after {
+      content: "";
+      height: 1px;
+      background-color: currentColor;
+      filter: brightness(50%);
+      display: block; }
+
+.seenon-logos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 3rem;
+  margin-top: 1.5rem;
+  justify-items: center; }
+  .seenon-logos img {
+    height: 2.5rem;
+    filter: brightness(70%); }
 
 .realtors {
-  background-color: yellow;
-  grid-column: col-start 7/ full-end; }
+  background-color: #101d2c;
+  grid-column: col-start 7/ full-end;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .realtors__person {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1.5rem;
+    align-items: center; }
+    .realtors__person img {
+      width: 7rem;
+      border-radius: 50%;
+      justify-self: end;
+      margin-right: 1.5rem; }
+    .realtors__person__text {
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-weight: 200; }
+    .realtors__person__details {
+      margin-bottom: 1.5rem; }
 
 .features {
   grid-column: center-start/ center-end;
